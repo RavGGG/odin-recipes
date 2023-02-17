@@ -1,0 +1,84 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    /* Main page */
+}
+.main {
+    background-color: RGB(223, 207, 190);
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-container {
+    margin: auto;
+    text-align: center;
+}
+
+.main-container h1 {
+    font-size: 80px;
+    margin-top : 50px;
+    margin-bottom: 100px;
+}
+
+.button {
+    display: block;
+    width: 350px;
+    font-size: 28px;
+    text-decoration: none;
+    margin: 50px auto;
+    padding: 20px 10px ;
+    background-color: RGB(152, 180, 212);
+    border: 2px solid black;
+    border-radius: 13px;
+ 
+    color: black;
+    font-weight: bold;
+
+}
+.button:hover {
+    transition: 0.4s;
+    background-color: rgb(73, 2, 167);
+}
+
+/* Elements for all pages */
+
+.back-button {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+    background-color: rgb(129, 153, 228);
+    padding: 20px 0;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.title {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+p, li {
+    font-size: 21px;
+}
+
+li {
+    margin-top: 8px;
+}
+
+.bold li {
+    font-weight: bold;
+}
+
+
